@@ -1,15 +1,16 @@
 class Stack
-  @lineup = Array.new(0)
+  $stack = Array.new(0)
 
   def add(elem)
-
-    @lineup.push(elem)
+    $stack << elem
   end
 
   def remove
     # Remove the last item to be added to the array
-    @lineup.pop
+    $stack.pop
   end
 
-  p @lineup
+  def details
+    puts $stack
+  end
 end

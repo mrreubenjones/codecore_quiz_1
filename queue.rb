@@ -1,14 +1,16 @@
 class Queue
-  @lineup = Array.new(0)
+  $queue = Array.new(0)
 
   def add(elem)
-    @lineup.push(elem)
+    $queue.push(elem)
   end
 
   def remove
     # remove the first item to be added to the lineup array
-    @lineup.shift
+    $queue.shift
   end
 
-  p @lineup
+  def details
+    puts $queue
+  end
 end

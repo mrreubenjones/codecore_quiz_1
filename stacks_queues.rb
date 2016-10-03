@@ -5,16 +5,19 @@
 require './stack.rb'
 require './queue.rb'
 
+puts "Remains in the stack after removing an item:"
 s = Stack.new
-s.add("one")
-s.add("two")
-s.add("three")
+s.add("dish 1")
+s.add("dish 2")
+s.add("dish 3")
 s.remove()
-puts s
+s.details
+puts
 
+puts "Remains in the queue after removing an item:"
 q = Queue.new
-q.add(1)
-q.add(2)
-q.add(3)
+q.add("visitor one")
+q.add("visitor two")
+q.add("visitor three")
 q.remove()
-puts q
+q.details
