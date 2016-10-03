@@ -1,6 +1,6 @@
-var majorCities = {BC: ["Vancouver", "Victoria", "Prince George"], AB: ["Edmonton", "Calgary"]};
+// Got this working when referencing this from major_cities.html, but not in the command line... :(
 
-// Write a piece of code that loops through the object and prints the following to the console: BC has 3 main cities AB has 2 main cities
+var majorCities = {BC: ["Vancouver", "Victoria", "Prince George"], AB: ["Edmonton", "Calgary"]};
 
 for (var city in majorCities) {
   var cities = majorCities[city];
