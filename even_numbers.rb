@@ -13,11 +13,11 @@
 # Recursion
 
   def even_numbers_recursive(n)
-    if n == 0
-      0
-    else
-      n % 2 == 0 ? n : even_numbers_recursive(n-1)
+    puts 2
+    if n != 0
+      2 * even_numbers_recursive(n)
     end
+    n -= 1
   end
 
   even_numbers(1)
