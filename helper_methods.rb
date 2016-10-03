@@ -20,11 +20,11 @@ end
 
 
 include HelperMethods
-test1 = "lord of the rings"
-test2 = "eternal sunshine of the spotless mind"
-
-p titleize(test1)
-p titleize(test2)
+# test1 = "lord of the rings"
+# test2 = "eternal sunshine of the spotless mind"
+#
+# p titleize(test1)
+# p titleize(test2)
 
 
 
