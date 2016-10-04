@@ -25,13 +25,13 @@ module HelperMethods
 end
 
 
-include HelperMethods
-test1 = "lord of the rings"
-test2 = "eternal sunshine of the spotless mind"
-test3 = "the curious incident of the dog in the nighttime"
-
-p titleize(test1)
-p titleize(test2)
-p titleize(test3)
+# include HelperMethods
+# test1 = "lord of the rings"
+# test2 = "eternal sunshine of the spotless mind"
+# test3 = "the curious incident of the dog in the nighttime"
+#
+# p titleize(test1)
+# p titleize(test2)
+# p titleize(test3)
 
 
