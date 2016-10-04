@@ -29,7 +29,7 @@ end
 
 include Blog
 s1 = Snippet.new
-s1.title = "phantom menace"
+s1.title = "the phantom menace"
 s1.body = "Turmoil has engulfed the Galactic Republic. The taxation of trade routes to outlying star systems is in dispute.
 Hoping to resolve the matter with a blockade of deadly battleships, the greedy Trade Federation has stopped all shipping to the small planet of Naboo.
 While the Congress of the Republic endlessly debates this alarming chain of events, the Supreme Chancellor has secretly dispatched two Jedi Knights, the guardians of peace and justice in the galaxy, to settle the conflict..."
@@ -37,7 +37,7 @@ p s1.title
 p s1.body
 
 s2 = Snippet.new
-s2.title = "who are these weirdos?"
+s2.title = "let me see your identification"
 s2.body = "These aren't the droids you're looking for."
 p s2.title
 p s2.body
