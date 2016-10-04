@@ -16,10 +16,12 @@ class Book
   attr_accessor :title, :chapter
 
   def initialize
+    # Adding the initialize method so that the array is within scope for the add chapter method
     @chapters = []
   end
 
   def add_chapter(title)
+    # Fixed a little typo to make the chapter count increment properly
     @@num_chapters += 1
     @chapters.push(title)
   end
