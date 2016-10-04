@@ -24,9 +24,16 @@ puts
 
 #  Recursive method
 puts "Recursion"
+# def even_numbers_recursive(n)
+#   even_numbers_recursive(n-1) unless n == 1
+#   puts n * 2
+# end
+
+# Recursive method #2
+@evens = []
 def even_numbers_recursive(n)
   even_numbers_recursive(n-1) unless n == 1
-  puts n * 2
+  @evens << n*2
 end
 
 puts even_numbers_recursive(1)
@@ -34,11 +41,6 @@ puts even_numbers_recursive(2)
 puts even_numbers_recursive(3)
 puts even_numbers_recursive(4)
 puts even_numbers_recursive(5)
-
-
-
-
-
 
 
 
