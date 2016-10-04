@@ -13,11 +13,14 @@
 
 class Book
   @@num_chapters = 0
-  @chapters = []
   attr_accessor :title, :chapter
 
+  def initialize
+    @chapters = []
+  end
+
   def add_chapter(title)
-    @@num_chapters = +1
+    @@num_chapters += 1
     @chapters.push(title)
   end
 
